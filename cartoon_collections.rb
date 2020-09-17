@@ -17,6 +17,5 @@ def long_planeteer_calls(calls)# code an argument here
 def find_the_cheese(mouse)# code an argument here
     mouse.detect{|i|odd?}
 end# the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-
 end
+  cheese_types = ["cheddar", "gouda", "camembert"]
