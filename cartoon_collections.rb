@@ -7,9 +7,9 @@ def summon_captain_planet(planeteer)# code an argument here
 end
 
 def long_planeteer_calls(calls)# code an argument here
-  if calls.detect{|i|i.length >= 4}  # Your code here
+  if calls.detect{|i|i.length > 4}  # Your code here
     true
-    if calls.select{|i|i.length > 4}
+    if calls.select{|i|i.length  4}
       false
     end
   end
